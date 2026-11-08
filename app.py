@@ -4,7 +4,7 @@ from transformers import pipeline
 # Page styling
 st.set_page_config(page_title="Sentiment Analysis AI", page_icon="📊", layout="centered")
 
-st.title("📊 Multi-Class Sentiment Analysis AI Model")
+st.title(" Multi-Class Sentiment Analysis AI Model")
 st.write("Live inference pipeline powered by Transformers and Streamlit.")
 
 @st.cache_resource
